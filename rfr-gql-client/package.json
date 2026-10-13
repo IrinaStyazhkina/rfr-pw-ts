@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:components": "playwright test --project=components"
   },
   "dependencies": {
     "@apollo/client": "^4.3.0",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.64.0",
     "@types/crypto-js": "^4.2.2",
     "@types/node": "^24.13.5",
     "@types/react": "^19.3.0",
