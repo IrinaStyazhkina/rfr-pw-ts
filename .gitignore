@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE output (VS Code / Eclipse JDT)
+bin/
+.classpath
+.project
+.settings/
+.factorypath
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+amplicode.xml
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Frontend
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+# Playwright CLI output (may contain credentials)
+.playwright-cli/
