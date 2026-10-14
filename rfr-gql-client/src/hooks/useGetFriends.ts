@@ -9,7 +9,7 @@ type QueryData = {
     };
 };
 
-const GET_FRIENDS = gql(`
+export const GET_FRIENDS = gql(`
     query GetFriends($page: Int, $size: Int, $searchQuery: String) {
         user {
             id

@@ -12,7 +12,7 @@ interface PhotoInput {
     }
 }
 
-const LIKE_PHOTO = gql(`
+export const LIKE_PHOTO = gql(`
     mutation LikePhoto($input: PhotoInput!) {
         photo(input: $input) {
             id

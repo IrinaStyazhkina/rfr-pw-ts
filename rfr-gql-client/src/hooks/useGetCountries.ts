@@ -6,7 +6,7 @@ type GetCountriesData = {
     countries: Country[];
 };
 
-const GET_COUNTRIES = gql(`
+export const GET_COUNTRIES = gql(`
     query GetCountries {
         countries {
             code

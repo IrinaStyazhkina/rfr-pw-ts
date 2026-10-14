@@ -7,7 +7,7 @@ type GetPeopleData = {
     users: Connection<User>;
 };
 
-const GET_PEOPLE = gql(`
+export const GET_PEOPLE = gql(`
     query GetPeople($page: Int, $size: Int, $searchQuery: String) {
         users(page: $page, size: $size, searchQuery: $searchQuery) {
             edges {
