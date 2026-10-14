@@ -7,7 +7,7 @@ interface DeletePhotoInput {
     }
 }
 
-const DELETE_PHOTO = gql(`
+export const DELETE_PHOTO = gql(`
     mutation DeletePhoto($id: ID!) {
         deletePhoto(id: $id) 
     }

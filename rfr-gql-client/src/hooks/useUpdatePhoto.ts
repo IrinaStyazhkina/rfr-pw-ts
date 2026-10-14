@@ -14,7 +14,7 @@ interface PhotoInput {
     }
 }
 
-const UPDATE_PHOTO = gql(`
+export const UPDATE_PHOTO = gql(`
     mutation UpdatePhoto($input: PhotoInput!) {
         photo(input: $input) {
             id

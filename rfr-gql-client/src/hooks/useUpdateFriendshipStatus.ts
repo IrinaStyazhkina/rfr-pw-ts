@@ -12,7 +12,7 @@ interface FriendshipInput {
     onError?: (error: ErrorLike) => void,
 }
 
-const FRIENDSHIP_ACTION = gql(`
+export const FRIENDSHIP_ACTION = gql(`
       mutation FriendshipAction($input: FriendshipInput!) {
             friendship(input: $input) {
                 id

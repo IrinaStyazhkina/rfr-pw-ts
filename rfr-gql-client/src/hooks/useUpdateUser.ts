@@ -14,7 +14,7 @@ interface UserInput {
     }
 }
 
-const UPDATE_USER = gql(`
+export const UPDATE_USER = gql(`
     mutation UpdateUser($input: UserInput!){
         user(input: $input) {
             id

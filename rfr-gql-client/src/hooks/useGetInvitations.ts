@@ -9,7 +9,7 @@ type QueryData = {
     };
 };
 
-const GET_INVITATIONS = gql(`
+export const GET_INVITATIONS = gql(`
     query GetInvitations($page: Int, $size: Int, $searchQuery: String) {
         user {
             id
